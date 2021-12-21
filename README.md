@@ -1,45 +1,27 @@
-# Learning template [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://github.com/hchiam/learning-template/blob/main/LICENSE)
+# Learning Bayes [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://github.com/hchiam/learning-bayes/blob/main/LICENSE)
 
 Just one of the things I'm learning. https://github.com/hchiam/learning
 
-(To use this template fast with [`gh` CLI](https://github.com/hchiam/learning-gh), you can run [`gh repo create --template learning-template learning-...`](https://cli.github.com/manual/gh_repo_create))
+<hr>
 
-(To create a convenience script repo, use this template instead: https://github.com/hchiam/convenience)
+## A indep B ⇒ p(A & B) = p(A) \* p(B):
 
-(To create a website fast, use a code generator like [`create-next-app`](https://github.com/hchiam/learning-nextjs), [`sapper`](https://github.com/hchiam/learning-sapper), a [svelte template](https://github.com/sveltejs/template), or [`yo`](https://yeoman.io/generators) )
+![indep](indep.png)
 
-<!-- Add reference link(s) here -->
+<hr>
 
-## From scratch
+## A not indep B ⇒ p(A & B) = p(A if B) \* p(B):
 
-Using [`yarn`](https://github.com/hchiam/learning-yarn):
+![indep_not](indep_not.png)
 
-```bash
-yarn add
-```
+<hr>
 
-Or with `npm`:
+## A xor B ⇒ p(A or B) = p(A) + p(B):
 
-```bash
-npm install
-```
+![xor](xor.png)
 
-And then:
+<hr>
 
-```bash
+## A not xor B ⇒ p(A or B) = p(A) + p(B) - p(A: & B)
 
-```
-
-## Starting by testing out this repo <!-- Replace "template"s and "# and then ..."s in this section -->
-
-Using [`yarn`](https://github.com/hchiam/learning-yarn): (triple-click to select all)
-
-```bash
-git clone https://github.com/hchiam/learning-template.git && cd learning-template && yarn; # and then ...
-```
-
-Or with `npm`: (triple-click to select all)
-
-```bash
-git clone https://github.com/hchiam/learning-template.git && cd learning-template && npm install; # and then ...
-```
+![xor_not](xor_not.png)
