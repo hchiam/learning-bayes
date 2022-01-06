@@ -6,22 +6,22 @@ Just one of the things I'm learning. https://github.com/hchiam/learning
 
 ## A indep B ⇒ p(A & B) = p(A) \* p(B):
 
-![indep](indep.png)
+![0.5*0.5=0.25 with overlapping circles, since you don't know the state of the other when one is true](indep.png)
 
 <hr>
 
 ## A not indep B ⇒ p(A & B) = p(A if B) \* p(B):
 
-![indep_not](indep_not.png)
+![0.5*0.5=0.25 with one circle enclosed in the other circle, not two separate circles](indep_not.png)
 
 <hr>
 
 ## A xor B ⇒ p(A or B) = p(A) + p(B):
 
-![xor](xor.png)
+![0.5+0.5=1 with two squares taking up the whole space and not overlapping, since they're mutually exclusive](xor.png)
 
 <hr>
 
 ## A not xor B ⇒ p(A or B) = p(A) + p(B) - p(A: & B)
 
-![xor_not](xor_not.png)
+![0.75+0.75-0.5=1 with overlapping squares since they're not mutually exclusive and you could have both true at the same time](xor_not.png)
