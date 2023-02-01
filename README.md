@@ -4,9 +4,13 @@ Just one of the things I'm learning. https://github.com/hchiam/learning
 
 ## intuition and explanation:
 
-How to use Bayes's rule to update beliefs when given new evidence (hint: ratios): 
+How to use Bayes's rule to update beliefs when given new evidence (hint: multiply ratios): https://brilliant.org/courses/knowledge-and-uncertainty/bayesian-thinking/bayes-rule/1/ and https://brilliant.org/courses/knowledge-and-uncertainty/bayesian-thinking/cause-bayes-rule/1/
 
-https://brilliant.org/courses/knowledge-and-uncertainty/bayesian-thinking/bayes-rule/1/
+- p-value = p(results|H0)
+  - small p-value <-- large effect OR large sample size!
+  - instead of using "p-value < 0.05 is good", use Bayes' rule to weigh both evidence for (H1) and against (H0) - accounting for baseline rates, and multiple possible causes for an observation (don't forget the possibility of independent concurrent causes), i.e. observations given actuals
+
+- google ["causal Bayesian network"](https://www.google.com/search?q=causal+Bayesian+network)
 
 ## backups of some of my old diagrams:
 
