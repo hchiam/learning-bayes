@@ -2,6 +2,14 @@
 
 Just one of the things I'm learning. https://github.com/hchiam/learning
 
+## intuition and explanation:
+
+How to use Bayes's rule to update beliefs when given new evidence (hint: ratios): 
+
+https://brilliant.org/courses/knowledge-and-uncertainty/bayesian-thinking/bayes-rule/1/
+
+## backups of some of my old diagrams:
+
 <hr>
 
 ## A indep B ⇒ p(A & B) = p(A) \* p(B):
